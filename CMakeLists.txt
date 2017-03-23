@@ -43,5 +43,5 @@ endif()
 enable_testing()
 add_subdirectory(tests)
 
-install(FILES server_ws.hpp client_ws.hpp server_wss.hpp client_wss.hpp DESTINATION include/simple-websocket-server)
+install(FILES server_ws.hpp client_ws.hpp server_wss.hpp client_wss.hpp crypto.hpp DESTINATION include/simple-websocket-server)
 install(FILES cmake/${PROJECT_NAME}Config.cmake DESTINATION cmake)
